@@ -8,7 +8,7 @@ Created on Mon Jul 30 15:39:02 2018
 import json
 import csv
 import os
-print([2,3,5]+[1,4,6])
+
 
 # Define feature header
 result = [['FileName', 'SectionAlignment', 'FileAlignment', 'SizeOfHeaders', 'TimeDateStamp', 'ImageBase', 'SizeOfImage', 'SizeOfHeaders', 'DllCharacteristics', 'Characteristics', 'HighEntropy', 'LowEntropy', 'TotalSuspiciousSections', 'TotalNonSuspiciousSections']]
