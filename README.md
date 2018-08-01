@@ -1,5 +1,4 @@
-# MachineLearning
-# DataSet Quality Research
+# MachineLearning - DataSet Quality Research
 
 This page will contain our progress in creating a report detailing the quality of diferent data sets.
 
