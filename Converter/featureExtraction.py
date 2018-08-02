@@ -11,7 +11,7 @@ import os
 
 
 # Define feature header
-result = [['FileName', 'SectionAlignment', 'FileAlignment', 'SizeOfHeaders', 'TimeDateStamp', 'ImageBase', 'SizeOfImage', 'SizeOfHeaders', 'DllCharacteristics', 'Characteristics', 'HighEntropy', 'LowEntropy', 'TotalSuspiciousSections', 'TotalNonSuspiciousSections']]
+result = [['FileName', 'SectionAlignment', 'FileAlignment', 'SizeOfHeaders', 'TimeDateStamp', 'ImageBase', 'SizeOfImage', 'DllCharacteristics', 'Characteristics', 'HighEntropy', 'LowEntropy', 'TotalSuspiciousSections', 'TotalNonSuspiciousSections']]
 
 # Define standard sections
 standardSection = ['.text', '.rdata', '.data', '.rsrc']
@@ -75,16 +75,13 @@ for filename in os.listdir(path):
         # SizeOfImage Extraction
         sizeOfImage = j['OPTIONAL_HEADER']['SizeOfImage']['Value']
         
-        #SizeOfHeaders Extraction
-        sizeOfHeaders = j['OPTIONAL_HEADER']['SizeOfHeaders']['Value']
-        
         #DllCharacteristics Extraction
         dllCharacteristics = j['OPTIONAL_HEADER']['DllCharacteristics']['Value']
         
         # Characteristics Extraction
         characteristics = j['FILE_HEADER']['Characteristics']['Value']
         
-        row = [filename, sectionAlignment, fileAlignment, sizeOfHeader, timeStamp, imageBase, sizeOfImage, sizeOfHeaders, dllCharacteristics, characteristics, highEntropy, lowEntropy, numberSuspicious, numberNonSuspicious]
+        row = [filename, sectionAlignment, fileAlignment, sizeOfHeader, timeStamp, imageBase, sizeOfImage,  dllCharacteristics, characteristics, highEntropy, lowEntropy, numberSuspicious, numberNonSuspicious]
         # print(row)
         result.append(row)
     
