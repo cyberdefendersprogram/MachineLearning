@@ -37,20 +37,33 @@ System_Squid_LogtoCSV.py
 ## Analysis Reports 
 Detailing the data inside the Datasets with Jupyter Notebook
 
-Elements in Data Quality Report
- Data Type 
- Count 
- Unique Values	 
- Missing Values 
- Minimum Values 
- Maximum Values 
+Elements in Data Quality Report:
+
+Data Type 
+
+Count 
+
+Unique Values	 
+
+Missing Values 
+
+Minimum Values 
+
+Maximum Values 
 
 ## Description Reports
- Report Format
- Abstract
- Source
- Dataset Information
- Attribute Information
- Relevant Papers
- Associate Data Science Notebook
+
+Report Format
+
+Abstract
+
+Source
+
+Dataset Information
+
+Attribute Information
+
+Relevant Papers
+
+Associate Data Science Notebook
 
