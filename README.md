@@ -10,8 +10,9 @@ by Tien Tran, Citlalin Galvan, Vivian Nguyen, Huy Nguyen
 
 ## WHY FOCUS ON DATASETS?
 Machine Learning is on the rise ⇑
-A Machine Learning Algorithm can:
-Detect Suspicious Activity 
+
+A Machine Learning Algorithm can: 
+Detect Suspicious Activity  
 Stop malicious files from executing
 
 The Problem:
@@ -37,19 +38,19 @@ System_Squid_LogtoCSV.py
 Detailing the data inside the Datasets with Jupyter Notebook
 
 Elements in Data Quality Report
-Data Type
-Count
-Unique Values	
-Missing Values
-Minimum Values
-Maximum Values
+ Data Type 
+ Count 
+ Unique Values	 
+ Missing Values 
+ Minimum Values 
+ Maximum Values 
 
 ## Description Reports
-Report Format
-Abstract
-Source
-Dataset Information
-Attribute Information
-Relevant Papers
-Associate Data Science Notebook
+ Report Format
+ Abstract
+ Source
+ Dataset Information
+ Attribute Information
+ Relevant Papers
+ Associate Data Science Notebook
 
